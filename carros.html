@@ -41,13 +41,31 @@
           <p>Realize seu sonho</p>
           <h3>Catálogo</h3>
         </div>
-        <div class="filter-card">
-          <input
-            type="text"
-            class="search-input"
-            placeholder="Escolha seu modelo favorito"/>
-          <button class="search-button">Procurar</button>
-        </div>
+        <form class="filter-card">
+        <input type="search" id="texto" list="historico" placeholder="Escolha seu modelo favorito" />
+        <datalist id="historico">
+          <option value="Audi A3"></option>
+          <option value="Maclaren 570"></option>
+          <option value="Maserati Ghibli"></option>
+          <option value="Mercedes Benz GLA"></option>
+          <option value="Mercedes Benz Maybach"></option>
+          <option value="Merecedes Benz C 180"></option>
+          <option value="Lamborghini Urus"></option>
+          <option value="Lamborghini Aventador"></option>
+          <option value="Lamborghini Aventador SS"></option>
+          <option value="Ferrari 812"></option>
+          <option value="Ferrari PortoFino"></option>
+          <option value="BMW série S"></option>
+          <option value="Ferrari PortoFino"></option>
+          <option value="Porsche TT"></option>
+          <option value="Porsche 911"></option>
+          <option value="Porsche Cayenne"></option>
+          <option value="Rolls Royce Sweptail"></option>
+          <option value="Rolls Royce Wraith"></option>
+          <option value="Koenigsegg CCXR"></option>          
+        </datalist>
+        <button class="search-button">Procurar</button>
+      </form>
         <div class="card-wrapper">
           <div class="card-item">
             <img src="images/cars/Audi-A3-Sedan-1.4.jpg" alt="Car" />

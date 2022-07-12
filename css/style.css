@@ -64,9 +64,6 @@ header {
     border-radius: 4px;
   }
 
-.ferrari {
-    filter: opacty(50%);
-  
   nav ul {
     display: flex;
     flex-direction: row;

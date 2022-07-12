@@ -63,6 +63,9 @@ header {
     font-weight: bold;
     border-radius: 4px;
   }
+
+.ferrari {
+    filter: opacty(50%);
   
   nav ul {
     display: flex;

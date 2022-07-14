@@ -320,10 +320,13 @@ header {
     font-size: 1em;
     letter-spacing: 2px;
     text-align: left;
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
     
+=======
+    color: rgb(0, 0, 0);    
+>>>>>>> d14901e6af336379f5795486a03a612a874a0b97
   }
-  
   
   .features {
     width: 100%;
@@ -378,8 +381,7 @@ header {
   .feature-card-item img {
     width: 64px;
     height: 64px;
-  }
-  
+  }  
   
   footer {
     width: 100%;

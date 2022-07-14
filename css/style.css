@@ -305,11 +305,11 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-top: 10%;
+    padding-top: 5%;   
   }
   
   .right h3 {
-    text-align: right;
+    text-align: center;
     width: 90%;
     margin-bottom: 20px;
     color: black;
@@ -319,8 +319,9 @@ header {
     max-width: 90%;
     font-size: 1em;
     letter-spacing: 2px;
-    text-align: right;
+    text-align: left;
     color: rgb(0, 0, 0);
+    
   }
   
   
